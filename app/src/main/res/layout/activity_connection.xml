@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:gravity="center"
+     android:orientation="vertical" >
+
+
+<Button
+     android:id="@+id/advertise_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/advertise_button_string" />
+
+
+<Button
+     android:id="@+id/discover_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discover_button_string" />
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+<Button
+     android:id="@+id/play_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_file_button_string" />
+
+<Button
+     android:id="@+id/send_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_file_button_string" />
+
+<Button
+     android:id="@+id/stream_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stream_file_button_string" />
+
+</LinearLayout>
+
+
+<FrameLayout
+     android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<EditText
+    android:id="@+id/message_text"
+android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:inputType="text" />
+
+</LinearLayout>

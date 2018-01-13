@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">music_group</string>
+
+    <string name="advertise_button_string">Start advertising</string>
+    <string name="discover_button_string">Start discovering</string>
+    <string name="play_file_button_string">Play</string>
+    <string name="send_file_button_string">Send</string>
+    <string name="stream_file_button_string">Stream</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="result_cancelled">Nothing selected, therefore cancelling the action</string>
 </resources>
+
+
